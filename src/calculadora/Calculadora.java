@@ -14,8 +14,8 @@ public class Calculadora {
         System.out.println("Ingrese el segundo número:");
         int b = sc.nextInt();
 
-        //Suma suma = new Suma();
-        //System.out.println("Suma: " + suma.calculadora(a, b));
+        Suma suma = new Suma();
+        System.out.println("Suma: " + suma.calculadora(a, b));
     }
     
 }
